@@ -1,12 +1,9 @@
 /*
- * Copyright (c) 2020 The ZMK Contributors
- * SPDX-License-Identifier: MIT
- *
- * ScyllaJNS — lado direito
- * Mesmos pinos físicos da esquerda, col-offset = 6 mapeia para C6–C11
+ * Corne JNS — lado direito (periférico)
+ * col-offset = 6 -> col6..col11 = dentro -> fora
  */
 
-#include "corne.dtsi"
+#include "corne_jns.dtsi"
 
 &default_transform {
     col-offset = <6>;

@@ -1,0 +1,16 @@
+if SHIELD_CORNE_JNS_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Corne JNS"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_CORNE_JNS_LEFT || SHIELD_CORNE_JNS_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

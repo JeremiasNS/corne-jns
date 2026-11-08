@@ -1,12 +1,9 @@
 /*
- * Copyright (c) 2020 The ZMK Contributors
- * SPDX-License-Identifier: MIT
- *
- * ScyllaJNS — lado esquerdo
- * Colunas C0–C5, col2row: saídas sem pull
+ * Corne JNS — lado esquerdo (central)
+ * Colunas col0..col5 = fora -> dentro
  */
 
-#include "corne.dtsi"
+#include "corne_jns.dtsi"
 
 &kscan0 {
     row-gpios
